@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+}
+.calculater{
+    height: 350px;
+    width: 240px;
+    background-color: blue;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    box-shadow: inset 5px 5px 15px gold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+input{
+   grid-column: span 4 ;
+   text-align: center;
+   background-color: rgb(237, 225, 225);
+}
+.btn15{
+    border: 2px solid black;
+}
+button{
+    border-radius: 10px;
+    color: white;
+    background-color: royalblue;
+    font-size: large;
+}
+.btn13{
+    color: red;
+}
+
+
+
+
+
